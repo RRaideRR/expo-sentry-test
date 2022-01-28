@@ -7,7 +7,7 @@ Sentry.init({
   dsn: 'XXXXX',
   enableInExpoDevelopment: false,
   debug: false, // If `true`, Sentry will try to print out useful debugging information if something goes wrong with sending the event. Set it to `false` in production
-  enableNative: true,
+  enableNative: false,
 });
 
 export default function App() {
